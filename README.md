@@ -44,8 +44,8 @@ zip -r venv.zip venv
    4.1 可以将jar文件直接放入 ~/flink-1.12.1/lib 目录下,代码中不要再添加jar文件,不然会出现任务一直提交卡死，提交不成功<br>
    4.2 如果集群python 软链接指向 python2 可以修改软软链接指向python3 也可在flink 客户端修改配置文件 flink-conf.yaml <br>
    python.client.executable: /usr/bin/python3<pyton3 地址>
-    ![](./image/1615273425.png)
-    4.3 如有多个py文件，在py文件目录执行提交命令
+    ![](./image/1615273425.png)<br>
+    4.3 如有多个py文件，在py文件目录执行提交命令<br>
     ```
     /home/Documents/flink12/flink-1.12.1/bin/flink run  -py kafka_to_kafka.py
     ```

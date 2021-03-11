@@ -1,9 +1,4 @@
 # _*_coding:utf-8_*_
-"""
- @Author : SongQin
- @Date :  2021/3/9 11:38
- @Description : 
-"""
 from pyflink.common.serialization import SimpleStringSchema
 from pyflink.datastream import StreamExecutionEnvironment
 from pyflink.datastream.connectors import FlinkKafkaConsumer, FlinkKafkaProducer
